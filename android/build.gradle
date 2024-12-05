@@ -29,8 +29,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 34
-    namespace 'com.edfapg.flutter.sdk'
+    compileSdkVersion = 34
+    namespace = 'com.edfapg.flutter.sdk'
 
     defaultConfig {
 //        applicationId "com.edfapg.flutter.sdk"
